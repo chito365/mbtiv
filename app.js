@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise');
 const path = require('path'); // Required to serve static files
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.use(express.static(path.join(__dirname, 'public'))); // Serve static files from a 'public' directory
 
