@@ -7,8 +7,9 @@
   "name": "m",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "test": "m"
+ "scripts": {
+  "start": "node server.js" 
+}
   },
   "author": "",
   "license": "ISC",
