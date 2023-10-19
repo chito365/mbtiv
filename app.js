@@ -8,10 +8,10 @@ const port = 3000;
 app.use(express.static(path.join(__dirname, 'public'))); // Serve static files from a 'public' directory
 
 const pool = mysql.createPool({
-  host: 'database-2.cluster-c98zifgrtj7m.us-east-1.rds.amazonaws.com',
-  user: 'admin',
+  host: 'premium149.web-hosting.com',
+  user: 'betahfsz_mb',
   password: 'AFANDESIR',
-  database: 'mb',
+  database: 'betahfsz_mb',
   connectionLimit: 10,
 });
 
